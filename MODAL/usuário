@@ -1,0 +1,7 @@
+CREATE TABLE Usuarios (
+    Id INT PRIMARY KEY IDENTITY,
+    Nome NVARCHAR(100),
+    Sobrenome NVARCHAR(100),
+    Email NVARCHAR(100),
+    Telefone NVARCHAR(20)
+);

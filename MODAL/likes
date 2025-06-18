@@ -1,0 +1,4 @@
+function abrirModalLikes() {
+  const modal = new bootstrap.Modal(document.getElementById('modalLikes'));
+  modal.show();
+}
