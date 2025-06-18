@@ -19,6 +19,12 @@ body {
     width: 80px;
   }
 
+  main {
+  margin-left: 220px;
+  padding: 20px;
+  flex: 1;
+}
+
   .img {
     width: 100%;
     background-image: #c2bebe;
@@ -26,12 +32,6 @@ body {
   
   .stats p {
     margin: 10px 0;
-  }
-  
-  main {
-    margin-left: 220px;
-    padding: 20px;
-    flex: 1;
   }
   
   header {
@@ -120,4 +120,11 @@ body {
   cursor: pointer;
   font-size: 1.2em;
   margin-right: 2px;
+}
+
+.cards {
+  margin-left: 220px;
+  padding: 20px;
+  flex: 1;
+  border: 1px solid #C2BEBE;
 }
